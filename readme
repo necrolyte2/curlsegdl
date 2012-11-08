@@ -1,18 +1,15 @@
-Curl Segmented Downloader
-=========================
+# Curl Segmented Downloader
 
 Very basic segmented downloader implemented using curl.
 
-Usage
-=====
+# Usage
 
 #> dl.sh <someurl>
 
 Will segment the download into 10 pieces and download each one concurrently.
 
 
-Known Issues
-============
+# Known Issues
 
 1. Script is too dumb at this point to detect the actual filename you are downloading so just creates a file called downloadefile instead which you will have to rename
 2. Will not work if downloading from an HTTP 1.0 server and does not check for that yet so be warned
